@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background: #edddd4;
+    color: #283d3b;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0 1.5rem 0 1rem;
+    line-height: 3rem;
+}
+
+li {
+    white-space: nowrap;
+}
+
+i {
+    margin-right: 1rem;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+header {
+    margin-bottom: 1rem;
+    display: flex;
+    height: 4.5rem;
+    justify-content: space-between;
+}
+
+#vegburger {
+    margin: 1rem 0 0 2rem;
+    color: #edddd4;
+    background: #197278;
+    font-size: 1.5rem;
+    z-index: 2;
+    border-radius: 50%;
+    padding: 1rem 1.8rem 2rem 1.2rem;
+    width: 1.3rem;
+}
