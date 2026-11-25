@@ -41,6 +41,31 @@ header {
     font-size: 1.5rem;
     z-index: 2;
     border-radius: 50%;
-    padding: 1rem 1.8rem 2rem 1.2rem;
+    padding: 1rem 2.5rem 2rem 1.4rem;
     width: 1.3rem;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background: #197278;
+    color: #edddd4;
+    transform: translateX(-10rem);
+    padding-top: 3.8rem;
+    transition: transform 350ms ease-in-out;
+    }
+           
+nav a {
+    color: #edddd4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-active {
+    transform: translateX(0);
+}
+
+main h1 {
+    margin: 0 1rem;
 }
